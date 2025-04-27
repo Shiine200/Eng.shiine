@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --wisteria: #c1a9d9;
+    --Metallic: #5317a6;
+    --dark-pastel:#9E82D9;
+    --Cetacean-blue: #010440;
+}
+
+body{
+    background-color: rgb(237, 237, 231);
+    max-width: 90%;
+    margin-inline: auto;
+}
+/* page-title */
+.page-title{
+    padding-top: 5%;
+    text-align: center;
+    color: #3c3636;
+}
+
+/* information-container */
+.information-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    padding-inline: 10%;
+    padding-block:7% ;
+}
+
+.right p{
+    line-height: 1.5;
+    text-align: justify; 
+    color: black;
+}
+
+.left img{
+    width: 70%;
+    border-radius: 3%;
+}
+.NameM{
+    font-size: 1.1rem;
+    font-weight: 600;
+   
+}
+/* skills */
+
+.title-skill{
+    margin-bottom: 16px; 
+    text-align: center;
+    color: #05072f;
+}
+
+.my-skills{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2.2rem;
+    padding-inline: 10%;
+    margin-top: 10px;
+
+}
+
+.full-stack ul li{
+    line-height: 1.5;
+    color: black;
+
+}
+.full-stack ul li p{
+    color: #40011e;
+}
+ 
+.Experience  {
+    color: #05072f;
+    text-align: justify;
+    line-height: 1.5;
+
+}
+h3{
+    margin-bottom: 10px;
+    color: #011C40;
+}
+
+.project ul li {
+    color: #05072f;
+    text-align: justify;
+    line-height: 1.5;
+
+}
+
+
+
