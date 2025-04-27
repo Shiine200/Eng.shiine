@@ -95,6 +95,48 @@ h3{
 
 }
 
+.page-welcom{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:  oblique;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-inline: 10%;
+    background-color: #14173f;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.footer ul li {
+    list-style: none;
+   
+}
+
+.f-titles{
+    color: #f1ebeb;
+    padding: 8px ;
+    margin-top: 3px;
+
+}
+
+.fa-brands, .fa-solid, .fa {
+    color: whitesmoke;
+}
+
+
+
+
+
+
+
+
 /* screen large */
 @media (min-width:1200px) {
 
