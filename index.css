@@ -26,8 +26,8 @@ body{
 /* information-container */
 .information-container{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 2rem;
+    grid-template-columns: repeat(3,1fr);
+  
     padding-inline: 10%;
     padding-block:7% ;
 }
@@ -36,10 +36,14 @@ body{
     line-height: 1.5;
     text-align: justify; 
     color: black;
+
+}
+.right{
+    grid-column: 2 / span3;
 }
 
 .left img{
-    width: 70%;
+    width: 90%;
     border-radius: 3%;
 }
 .NameM{
@@ -89,6 +93,35 @@ h3{
     text-align: justify;
     line-height: 1.5;
 
+}
+
+/* screen large */
+@media (min-width:1200px) {
+
+    .information-container{
+        grid-template-columns: 1fr;
+
+    }
+    
+}
+/* screen tablet */
+@media (min-width:768px) {
+
+    .information-container{
+        grid-template-columns: repeat(2,1fr);
+
+    }
+    
+}
+
+/* screen phones */
+@media (max-width:480px) {
+
+    .information-container{
+        grid-template-columns: 1fr;
+
+    }
+    
 }
 
 
